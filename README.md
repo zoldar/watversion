@@ -1,4 +1,5 @@
 # Watversion
+[![Build Status](https://travis-ci.com/zoldar/watversion.svg?branch=master)](https://travis-ci.com/zoldar/watversion)
 
 Output from dialyzer run:
 
