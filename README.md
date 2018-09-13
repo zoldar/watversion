@@ -16,14 +16,11 @@ Starting Dialyzer
   files_rec: ['/Users/zoldar/Work/hammer/watversion/_build/dev/lib/watversion/ebin'],
   warnings: [:unknown]
 ]
-Total errors: 2, Skipped: 0
-done in 0m2.4s
-lib/watversion.ex:15:no_return
-Function hello/0 has no local return.
-________________________________________________________________________________
-lib/watversion.ex:16:pattern_match
+Total errors: 1, Skipped: 0
+done in 0m2.76s
+lib/watversion.ex:17:pattern_match
 The pattern
-{:ok, __whatever}
+{:ok, _whatever}
 
 can never match the type
 :error
