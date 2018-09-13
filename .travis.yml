@@ -5,7 +5,7 @@ otp_release:
   - 21.0.8
 
 script:
-  - MIX_ENV=test mix do compile --warnings-as-errors, dialyzer --halt-exit-status --quiet
+  - MIX_ENV=test mix do compile --warnings-as-errors, dialyzer --halt-exit-status
 
 notifications:
   email: false
